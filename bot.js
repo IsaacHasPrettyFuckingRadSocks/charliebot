@@ -1,3 +1,5 @@
+const Discord = require("discord.js");
+const client = new Discord.Client();
 const YouTube = require('simple-youtube-api');
 const ytdl = require('ytdl-core');
 const youtube = new YouTube("AIzaSyAG_6Y3Rt_ruioLp0wRRR9FANhYUSuEt1I");
